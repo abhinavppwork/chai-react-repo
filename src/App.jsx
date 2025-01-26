@@ -5,6 +5,7 @@ import Posts from './EffectDemo/Posts'
 
 import Effect from '../src/EffectDemo/Effect';
 import './App.css'
+import Manage from './TasksDemo/Manage'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
     
     <>
         {/* <Effect/> */}
-        <Posts/>
+        {/* <Posts/> */}
+        <Manage />
     </>
   )
 }
